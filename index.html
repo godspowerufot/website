@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Brand</div>
+        <!-- toggle menu button -->
+        <span class="menubtn" onclick="openNav()">&#9776;</span>
+
+        <div class="navLinks">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about-page.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact-us.html">Contact</a></li>
+                <li><a href="./testimonials.html">Testimonials</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- responsive side navbar -->
+    <div class="sideNav" aid="sidenav">
+        <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+        <a href="./index.html">Home</a>
+        <a href="./about-page.html ">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./contact-us.html">Contact</a>
+        <a href="./testimonials.html">Testimonials</a>
+    </div>
+
+    <!-- Header content with banner image -->
+    <div class="row">
+        <div class="column1">
+            <h1> Think and Grow </h1>
+            <p>Contact us for responsive web design to grow your business!</p>
+            <button>PURCHASE</button>
+        </div>
+        <div class="column2">
+            <img src="./Free Business Website Illustration-PNG.png" alt="banner" width="500px">
+        </div>
+    </div>
+
+    <!-- javascript to make side menu appear -->
+    <script src="./navigation.js"></script>
+
+</body>
+
+</html>
